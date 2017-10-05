@@ -623,31 +623,6 @@
             }
           },
           "text": "Cut down the development time with drag-and-drop website builder."
-        },
-        {
-          "_styles": {},
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_anchor": "video1-z",
-          "_params": {
-            "bgColor": "#252525",
-            "showText": true
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "Cut down the development time with drag-and-drop website builder."
         }
       ]
     }
