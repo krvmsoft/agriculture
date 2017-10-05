@@ -9,7 +9,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 19,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.3.2",
     "favicon": "",
     "noImageResize": ""
   },
@@ -43,14 +43,14 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -94,23 +94,23 @@
           },
           "_anchor": "header4-i",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gopr0280-2000x1500.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "showArrow": false
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gopr0280-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "ASTERIX AGRICULTURE<br><br>&nbsp;Digital elevation models<div>Mapping</div><div>Real time NDVI&nbsp;</div><div><br><br></div>",
           "text": "",
@@ -131,17 +131,17 @@
           "_name": "form1",
           "_anchor": "form1-1",
           "_params": {
+            "showTitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#a38f84",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#a38f84",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "form": {
@@ -192,14 +192,14 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -249,14 +249,14 @@
           "_name": "menu",
           "_anchor": "menu-e",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -286,8 +286,8 @@
           "_name": "image2",
           "_anchor": "image2-h",
           "_params": {
-            "outside": false,
-            "showText": true
+            "showText": true,
+            "outside": false
           },
           "media": {
             "image": {
