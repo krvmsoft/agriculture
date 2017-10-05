@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "Asterix Agriculture",
-    "currentPage": "index.html",
+    "currentPage": "dem.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 36,
+    "uniqCompNum": 38,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -525,7 +525,7 @@
             },
             "bgVideoRadio": false,
             "contentAlign": "center",
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": false,
@@ -606,7 +606,7 @@
           "_anchor": "video1-y",
           "_params": {
             "bgColor": "#252525",
-            "showText": true
+            "showText": false
           },
           "media": {
             "image": {
