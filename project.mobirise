@@ -1,15 +1,15 @@
 {
   "settings": {
     "name": "Asterix Agriculture",
-    "currentPage": "dem.html",
+    "currentPage": "orthomosaic.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 38,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 45,
+    "versionPublish": "4.3.5",
     "favicon": "",
     "noImageResize": ""
   },
@@ -46,14 +46,14 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -73,7 +73,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -94,40 +94,103 @@
             "P": {
               "text-align": "center",
               "color": "#000000"
+            },
+            "DIV": {
+              "font-size": "36px"
             }
           },
           "_anchor": "header4-i",
           "_params": {
-            "parallax": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/log-udp-2017-06-08-11-54-10-2000x1576.jpg",
-            "bgColor": "#4c6972",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/helOZ7fYaVA?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><br><div><br><br></div>",
-          "text": "<a href=\"orthomosaic.html\" class=\"text-black\">Orthomosaic</a><br><a href=\"ndvi.html\" class=\"text-black\">NDVI</a><br><a href=\"dem.html\" class=\"text-black\">Digital elevation model</a><br><a href=\"video.html\" class=\"text-black\">Video</a><br><a href=\"dem.html\" class=\"text-black\"><br></a><br><br>",
+          "title": "ASTERIX AGRICULTURE<br><br><div>&nbsp;Use technology for decision making<br>based on up to date information</div>",
+          "text": "<br><br><br><br><a href=\"dem.html\" class=\"text-black\"><br></a><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-17",
+          "_params": {
+            "firstType": "default",
+            "secondType": "green",
+            "thirdType": "favorite",
+            "fourthType": "orange",
+            "fifthType": "hidden",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "STANDARD",
+          "currency1": "$",
+          "price1": "",
+          "period1": "per month",
+          "list1": "<ul><li><b>32 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>15 GB</b> Bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
+          "title2": "BUSINESS",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "per month",
+          "list2": "<ul><li><b>80 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>20 GB</b> Bandwidth</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
+          "title3": "PREMIUM",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "per month",
+          "list3": "<ul><li><b>100 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>50 GB</b> Bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
+          "title4": "ULTIMATE",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "per month",
+          "list4": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>1 TB</b> Bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
+          "title5": "EXTENDED",
+          "currency5": "$",
+          "price5": "0",
+          "period5": "per month",
+          "list5": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>2 TB</b> Bandwidth</li></ul>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>"
         }
       ]
     },
     "contact.html": {
       "settings": {
-        "title": "",
-        "meta_descr": ""
+        "title": "CONTACT",
+        "meta_descr": "",
+        "order": 2
       },
       "components": [
         {
@@ -137,17 +200,17 @@
           "_name": "form1",
           "_anchor": "form1-1",
           "_params": {
+            "showTitle": true,
             "paddingTop": "1",
             "paddingBottom": "3",
             "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/block-2000x2864.jpg",
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
             "bgColorRadio": false,
+            "bgColor": "#1abc9c",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "form": {
@@ -201,14 +264,14 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -228,18 +291,19 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         }
       ]
     },
     "orthomosaic.html": {
       "settings": {
-        "title": "",
+        "title": "Orthomosaic",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 3
       },
       "components": [
         {
@@ -264,14 +328,14 @@
           "_name": "menu",
           "_anchor": "menu-m",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -291,62 +355,88 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "header1",
+          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
           "_styles": {
-            "H1": {
-              "text-align": "center",
-              "font-size": "20px",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "color": "#000000"
+            ".mbr-header__text": {
+              "color": "#ffffff"
             },
-            "P": {
-              "text-align": "center",
-              "color": "#000000"
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
             }
           },
-          "_anchor": "header4-n",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-14",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/40-2000x1778.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
+            "bgColor": "#27aae0",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><br><div><br><br></div>",
-          "text": "<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/40-1400x1245.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Orthomosaic",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Stich a lot of photo's together to view a large area</p><p>with a lot of detail.</p><p>Used for counting game or looking for missing livestock</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         }
       ]
     },
     "ndvi.html": {
       "settings": {
-        "title": "",
+        "title": "NDVI",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 4
       },
       "components": [
         {
@@ -371,14 +461,14 @@
           "_name": "menu",
           "_anchor": "menu-o",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -398,62 +488,88 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "header1",
+          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
           "_styles": {
-            "H1": {
-              "text-align": "center",
-              "font-size": "20px",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "color": "#000000"
+            ".mbr-header__text": {
+              "color": "#ffffff"
             },
-            "P": {
-              "text-align": "center",
-              "color": "#000000"
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
             }
           },
-          "_anchor": "header4-p",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-15",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "50",
+            "paddingTop": "1",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/39ndvi-2000x1778.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
+            "bgColor": "#27aae0",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><br><div><br><br></div>",
-          "text": "<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/39ndvi-1400x1245.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Normilized Difference Vegetation Index",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Near live health status of crop fields .",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         }
       ]
     },
     "dem.html": {
       "settings": {
-        "title": "",
+        "title": "DEM",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 5
       },
       "components": [
         {
@@ -478,14 +594,14 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -505,62 +621,88 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "header1",
+          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
           "_styles": {
-            "H1": {
-              "text-align": "center",
-              "font-size": "20px",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "color": "#000000"
+            ".mbr-header__text": {
+              "color": "#ffffff"
             },
-            "P": {
-              "text-align": "center",
-              "color": "#000000"
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
             }
           },
-          "_anchor": "header4-t",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-16",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "60",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/39dem-1-2000x1325.png",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
+            "bgColor": "#27aae0",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlay": false,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><br><div><br><br></div>",
-          "text": "<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/39dem-1400x927.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Digital Elevation Model",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Used for for designing of contours or building of dams.</p><p>Data can be used in other software eg. Apex and Fuse.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         }
       ]
     },
     "video.html": {
       "settings": {
-        "title": "",
+        "title": "VIDEO",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 6
       },
       "components": [
         {
@@ -585,14 +727,14 @@
           "_name": "menu",
           "_anchor": "menu-w",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": false,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -612,7 +754,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Asterix Agriculture<br><br></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"orthomosaic.html\">ORTHOMOSAIC</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"dem.html\">DEM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"ndvi.html\">NDVI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT&nbsp;</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -623,8 +765,8 @@
           "_name": "video1",
           "_anchor": "video1-y",
           "_params": {
-            "bgColor": "#252525",
-            "showText": false
+            "showText": false,
+            "bgColor": "#252525"
           },
           "media": {
             "image": {
