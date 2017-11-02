@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Asterix Agriculture",
-    "currentPage": "index.html",
+    "currentPage": "dem.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -669,7 +669,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/gpspointscreate-898x595.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gpspointscreate-2-898x595.jpg",
               "link": "",
               "alt": "",
               "title": ""
