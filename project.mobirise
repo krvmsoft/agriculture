@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Asterix Agriculture",
-    "currentPage": "orthomosaic.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -669,11 +669,10 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/39dem-1400x927.png",
+              "src": "@PROJECT_PATH@/assets/images/gpspointscreate-898x595.jpg",
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
