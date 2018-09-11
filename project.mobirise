@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Asterix Agriculture",
-    "currentPage": "dem.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -121,68 +121,9 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><div>&nbsp;Use technology for decision making<br>based on up to date information</div>",
+          "title": "ASTERIX AGRICULTURE<br><br><div>Capturing date for decision making</div>",
           "text": "<br><br><br><br><a href=\"dem.html\" class=\"text-black\"><br></a><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-17",
-          "_params": {
-            "firstType": "default",
-            "secondType": "green",
-            "thirdType": "favorite",
-            "fourthType": "orange",
-            "fifthType": "hidden",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showButtons": true,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f0f0f0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title1": "STANDARD",
-          "currency1": "$",
-          "price1": "",
-          "period1": "per month",
-          "list1": "<ul><li><b>32 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>15 GB</b> Bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title2": "BUSINESS",
-          "currency2": "$",
-          "price2": "0",
-          "period2": "per month",
-          "list2": "<ul><li><b>80 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>20 GB</b> Bandwidth</li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title3": "PREMIUM",
-          "currency3": "$",
-          "price3": "0",
-          "period3": "per month",
-          "list3": "<ul><li><b>100 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>50 GB</b> Bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title4": "ULTIMATE",
-          "currency4": "$",
-          "price4": "0",
-          "period4": "per month",
-          "list4": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>1 TB</b> Bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title5": "EXTENDED",
-          "currency5": "$",
-          "price5": "0",
-          "period5": "per month",
-          "list5": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>2 TB</b> Bandwidth</li></ul>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>"
         }
       ]
     },
@@ -424,7 +365,7 @@
           "headerAlign": "left",
           "title": "Orthomosaic",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Stitch a lot of photo's together to view a large area with a lot of detail.</p><p>Used for counting game or looking for missing livestock</p>",
+          "text": "<p>Photo created by stitching photo's.&nbsp;</p><p>Crop inspections.</p><p>Counting game or looking for missing livestock.</p><p><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         }
       ]
