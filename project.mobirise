@@ -9,9 +9,12 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 45,
-    "versionPublish": "4.3.5",
+    "versionPublish": "4.8.2",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -121,7 +124,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "ASTERIX AGRICULTURE<br><br><div>Capturing date for decision making</div>",
+          "title": "ASTERIX AGRICULTURE<br><br><div>Capturing data for decision making</div>",
           "text": "<br><br><br><br><a href=\"dem.html\" class=\"text-black\"><br></a><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
         }
